@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# リライトルール: index.php 以外の存在しないファイルやディレクトリへのアクセスを index.php に転送
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]

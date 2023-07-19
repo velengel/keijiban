@@ -1,4 +1,6 @@
 # .gitignore
 
 # 排除するファイルやディレクトリ
-/includes/db.php
+app/includes/db.php
+
+.env

@@ -1,0 +1,4 @@
+# .gitignore
+
+# 排除するファイルやディレクトリ
+/includes/db.php
